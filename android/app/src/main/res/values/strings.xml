@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Конструктор блюд</string>
+    <string name="title_free">Всё меню</string>
+    <string name="title_breakfast">Завтрак</string>
+    <string name="title_dinner">Обед</string>
+    <string name="title_review">Отзыв или заявка</string>
+    <string name="title_account">Аккаунт</string>
+    <string name="text_searchFood">Название блюда</string>
+    <string name="button_search">Поиск</string>
+    <string name="text_searchBreakfast">Поиск</string>
+    <string name="text_changelingFeedback">Отзыв или заявка</string>
+    <string name="text_name">Имя</string>
+    <string name="text_class">Класс</string>
+    <string name="text_yourWishes">Комментарий</string>
+    <string name="button_confirm">Подтвердить</string>
+</resources>

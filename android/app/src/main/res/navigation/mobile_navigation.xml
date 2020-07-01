@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_free">
+
+    <fragment
+        android:id="@+id/navigation_free"
+        android:name="com.example.dishapp.ui.free.FreeFragment"
+        android:label="@string/title_free"
+        tools:layout="@layout/fragment_free" />
+
+    <fragment
+        android:id="@+id/navigation_breakfast"
+        android:name="com.example.dishapp.ui.breakfast.BreakfastFragment"
+        android:label="@string/title_breakfast"
+        tools:layout="@layout/fragment_breakfast" />
+
+    <fragment
+        android:id="@+id/navigation_dinner"
+        android:name="com.example.dishapp.ui.dinner.DinnerFragment"
+        android:label="@string/title_dinner"
+        tools:layout="@layout/fragment_dinner" />
+
+    <fragment
+        android:id="@+id/navigation_review"
+        android:name="com.example.dishapp.ui.review.ReviewFragment"
+        android:label="@string/title_review"
+        tools:layout="@layout/fragment_review" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.dishapp.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+
+</navigation>

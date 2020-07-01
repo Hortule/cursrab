@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_free"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="@string/title_free" />
+
+    <item
+        android:id="@+id/navigation_breakfast"
+        android:icon="@drawable/ic_local_dining_black_24dp"
+        android:title="@string/title_breakfast" />
+
+    <item
+        android:id="@+id/navigation_dinner"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="@string/title_dinner" />
+
+    <item
+        android:id="@+id/navigation_review"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/title_review" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_more_horizontally_black_24dp"
+        android:title="@string/title_account" />
+
+</menu>
